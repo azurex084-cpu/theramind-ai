@@ -1,0 +1,53 @@
+remote: error: GH013: Repository rule violations found for refs/heads/main.
+remote: 
+remote: - GITHUB PUSH PROTECTION
+remote:   —————————————————————————————————————————
+remote:     Resolve the following violations before pushing again
+remote: 
+remote:     - Push cannot contain secrets
+remote: 
+remote:     
+remote:      (?) Learn how to resolve a blocked push
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push
+remote:     
+remote:     
+remote:       —— Google Cloud Service Account Credentials ——————————
+remote:        locations:
+remote:          - commit: b92b39a2a9a443f5ba8c0276fc4811e392864c27
+remote:            path: google-credentials.json:1
+remote:     
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.
+remote:        https://github.com/azurex084-cpu/theramind-ai/security/secret-scanning/unblock-secret/37MmEmDWgr7CkohdqxecacQ9Fh6
+remote:     
+remote:     
+remote:       —— Google Cloud Service Account Credentials ——————————
+remote:        locations:
+remote:          - commit: 1d3d4c6932679b978467a0e3b9ce27906f3dab3f
+remote:            path: google-credentials.json:1
+remote:     
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.
+remote:        https://github.com/azurex084-cpu/theramind-ai/security/secret-scanning/unblock-secret/37MmEknHojREVrDvSR1DqoQb7ZF
+remote:     
+remote:     
+remote:       —— Google Cloud Service Account Credentials ——————————
+remote:        locations:
+remote:          - commit: 1d3d4c6932679b978467a0e3b9ce27906f3dab3f
+remote:            path: attached_assets/regal-skyline-458615-n3-cbdde78fc80f.json:1
+remote:     
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.
+remote:        https://github.com/azurex084-cpu/theramind-ai/security/secret-scanning/unblock-secret/37MmEgiLmjQIvKAyrKMbuuZpqVz
+remote:     
+remote:     
+remote:       —— Google Cloud Service Account Credentials ——————————
+remote:        locations:
+remote:          - commit: b92b39a2a9a443f5ba8c0276fc4811e392864c27
+remote:            path: attached_assets/regal-skyline-458615-n3-d6c99327b3b6.json:1
+remote:     
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.
+remote:        https://github.com/azurex084-cpu/theramind-ai/security/secret-scanning/unblock-secret/37MmEjqhp3Uw9EsTUtidPcl9tB9
+remote:     
+remote: 
+remote: 
+To https://github.com/azurex084-cpu/theramind-ai.git
+ ! [remote rejected] HEAD -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/azurex084-cpu/theramind-ai.git'

@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #3B82F6;
+  --color-background: #f9fafb;
+  --color-card: #ffffff;
+  --color-text: #374151;
+}
+
+/* Base styling */
+@layer base {
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    overflow: hidden;
+  }
+  
+  #root {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  /* Card styles */
+  .theme-card {
+    background-color: var(--color-card);
+    border: 1px solid #f0f0f0;
+    transition: box-shadow 0.3s ease;
+  }
+}
+
+@layer components {
+  /* Chat message styles */
+  .message-container {
+    transition: transform 0.3s ease;
+    border-radius: 0.75rem;
+    overflow: hidden;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased text-foreground;
+  }
+}
